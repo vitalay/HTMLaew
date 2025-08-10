@@ -1,17 +1,40 @@
 body{
-  /* margin: 0; */
+  margin: 0;
+  font-family: Verdana;
 }
-.box{
+
+.box3 {
+  background-image: url(https://lermontovka-spb.ru/upload/resize_cache/webp/upload/iblock/5d9/eoxrzd3mqt0yurih00uhet5toatugda1.webp);
+  background-size: cover;
+  min-height: 600px;
   position: relative;
-  background: red;
-width: 100px;
-height: 100px;
-background: black;
-} 
-.container{
-  position: relative;
-  width:200px;
- height: 300px;
-  border: 3px solid #0cdc36;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.box3::before{
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+.skrin_header_1{
+ position: relative;
+ z-index: 2;
+}
+.skrin_header{
+  
+}
+.text{
  
 }
